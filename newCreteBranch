@@ -1,0 +1,97 @@
+Now you are working with branches in Git. I’ll explain in very simple beginner language.
+____________________________________________________________________________________________
+Your remote repo is on GitHub.
+
+🌿 What is a Branch?
+
+Branch means:
+
+A separate line of work.
+
+Think like:
+
+master → Main project
+
+rahul1 → Your new experiment or feature
+____________________________________________________________________________________________
+Step-by-Step Explanation
+1️⃣ git branch rahul1
+
+👉 This creates a new branch named rahul1.
+
+But ⚠ it does NOT switch to it yet.
+
+You are still on master.
+____________________________________________________________________________________________
+2️⃣ git checkout rahul1
+
+👉 This switches you to the branch rahul1.
+
+Now whatever changes you make will go inside rahul1 branch, not master.
+
+You can check branch using:
+
+git branch
+
+The * shows your current branch.
+____________________________________________________________________________________________
+3️⃣ git add .
+
+👉 Add all changed files to staging area.
+
+Means:
+
+"Prepare files to save."
+____________________________________________________________________________________________
+4️⃣ git status
+
+👉 Shows:
+
+Which files changed
+
+Which files are ready to commit
+
+Just for checking.
+____________________________________________________________________________________________
+5️⃣ git commit -m "rahul1"
+
+👉 Saves your changes inside branch rahul1.
+
+Now your branch has its own commit.
+____________________________________________________________________________________________
+6️⃣ git push --set-upstream origin rahul1
+
+This is important 👇
+
+👉 Upload branch rahul1 to GitHub.
+
+--set-upstream means:
+
+Connect local branch rahul1 with remote branch rahul1.
+
+So next time you can just type:
+
+git push
+
+No need to write full command again.
+____________________________________________________________________________________________
+🧠 Simple Real Example
+
+Think like this:
+
+master = Final project notebook
+
+rahul1 = Rough work notebook
+
+You worked in rough notebook (rahul1)
+Then uploaded it to GitHub.
+____________________________________________________________________________________________
+🔥 Final Result
+
+Now on GitHub you have:
+
+master branch
+
+rahul1 branch
+
+Both separate.
