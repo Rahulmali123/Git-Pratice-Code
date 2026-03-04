@@ -1,0 +1,14 @@
+
+git checkout master
+git pull
+git checkout rahul2
+git merge master
+# if conflict:
+#   edit file
+git add abc
+git commit -m "fc"
+git push
+
+if not conflict
+git merge master
+git push
