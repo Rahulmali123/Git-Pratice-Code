@@ -1,0 +1,67 @@
+Now I explain how to delete branch in very simple beginner way.
+
+Your repo is on GitHub
+--------------------------------------------------------------------------------
+🌿 1️⃣ Delete Local Branch (on your computer)
+⚠ Important:
+
+You CANNOT delete branch if you are currently inside it.
+
+First switch to another branch:
+
+git checkout master
+
+Now delete branch:
+
+git branch -d rahul2
+
+👉 -d = delete (safe delete)
+
+❗ If Git says:
+
+branch is not fully merged
+
+Then force delete:
+
+git branch -D rahul2
+
+👉 -D = force delete (capital D)
+
+🌍 2️⃣ Delete Remote Branch (on GitHub)
+
+To delete branch from GitHub:
+
+git push origin --delete rahul2
+
+👉 This removes branch from remote repository.
+
+🧠 Simple Example
+
+If you created:
+
+master
+
+bugfix1
+
+rahul2
+
+And now you don’t need rahul2:
+
+Delete locally:
+git branch -d rahul2
+Delete on GitHub:
+git push origin --delete rahul2
+📌 Check Branch List
+
+See all branches:
+
+git branch
+
+See remote branches:
+
+git branch -r
+🎯 Final Simple Summary
+Action	                                   Command
+Delete local branch	                   git branch -d branchname
+Force delete local	                   git branch -D branchname
+Delete remote branch	               git push origin --delete branchname
