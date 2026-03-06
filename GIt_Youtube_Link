@@ -1,0 +1,24 @@
+Branches are one of Git's most important concepts. 
+And to master Git, it's essential to have a thorough understanding of how branches work.
+In this course, we'll look at the many actions you can perform around branches -
+from creating and deleting them all the way to publishing and comparing them.
+
+_________________________________________________________________________________________
+
+⌚ TIMESTAMPS
+0:00 Branching
+0:16 Branch operations
+0:50 Why branching?
+3:33 Feature Branch Workflow
+4:12 Git repository setup
+7:03 Creating new branches
+7:27 Switching branches
+8:02 Pushing branches
+9:46 Pull request in GitHub
+11:19 Merging branches
+12:56 Merge conflicts
+14:33 Resolve merge conflicts on local
+16:10 Deleting branches
+_____________________________________________________________________________________
+
+Youtube LINK:  https://youtu.be/6QNgbD2m7gA?si=MOD2qu-tklAaLOQX
